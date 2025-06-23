@@ -1,0 +1,61 @@
+# =========================
+# ✅ PROJECT-WIDE SETTINGS
+# =========================
+
+# Ignore build output
+/target/
+build/
+
+# Ignore .class and generated files
+*.class
+
+# =========================
+# 🔐 FIREBASE SECRETS (MUST NEVER BE TRACKED)
+# =========================
+
+# Firebase service account key
+src/main/resources/firebase-service-account.json
+.firebase-service-account.json
+
+# =========================
+# ⚙️ MAVEN WRAPPER FILES
+# =========================
+
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# 🧠 IDE SETTINGS
+# =========================
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# 🔁 OPTIONAL OVERRIDES (used if nested target or build folders are needed — you can remove these safely)
+/**/src/main/**/target/
+/**/src/test/**/target/
+/**/src/main/**/build/
+/**/src/test/**/build/
