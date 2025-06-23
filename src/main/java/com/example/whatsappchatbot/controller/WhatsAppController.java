@@ -13,7 +13,13 @@ public class WhatsAppController {
     @Autowired
     private WhatsAppService service;
 
-    // Handle POST request at /api/whatsapp/message
+    // ✅ Root test endpoint for Render
+    @GetMapping("/")
+    public String home() {
+        return "✅ WhatsApp Chatbot is live on Render!";
+    }
+
+    // ✅ POST endpoint to receive messages
     @PostMapping("/message")
     public MessageResponse receiveMessage(@RequestBody MessageRequest request) {
         return service.processMessage(request);
