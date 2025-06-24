@@ -1,7 +1,3 @@
-Here is a complete and beginner-friendly README.md for your WhatsApp Chatbot using Spring Boot and Render, with Firebase support and deployment instructions:
-
-⸻
-
 
 # 📱 WhatsApp Chatbot using Spring Boot + Firebase + Render
 
